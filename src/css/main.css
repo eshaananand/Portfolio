@@ -1,0 +1,16 @@
+/* .main-section{
+    background-image: url("../assets/background-image/background.png");
+} */
+
+hr.sep-2 {
+  margin: 0px;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    #f0f0f0,
+    #00b9ff,
+    #59d941,
+    #f0f0f0
+  );
+}

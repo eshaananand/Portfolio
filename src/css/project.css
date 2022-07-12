@@ -1,0 +1,124 @@
+.project-section {
+  padding: 50px 200px;
+  background-color: rgba(130, 162, 238, 0.068);
+  background-color: #f1f5fd;
+  background-image: url("https://www.transparenttextures.com/patterns/pyramid.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production */
+}
+.project-section h2 {
+  font-family: "Mirza", cursive;
+  font-weight: 600;
+  color: #393d41;
+  font-size: 50px;
+}
+.project-list {
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between !important;
+}
+.project-section .button-div {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Space Mono", monospace;
+}
+.project-section .skill-image {
+  overflow: hidden;
+}
+.project-section .skill-image .skill-img {
+  height: 200px;
+}
+.project-section .project-card {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 340px;
+  margin-bottom: 50px;
+}
+.project-card .card-text p{
+  font-family: "Roboto", sans-serif;
+  font-family: "Short Stack", cursive;
+  font-size: 18px;
+  height: 210px;
+  text-align: center;
+  text-align-last: center !important;
+}
+.project-card .project-card-title {
+  height: 50px;
+  font-weight: bold;
+  font-family: "Space Mono", monospace;
+}
+@media (max-width: 1341px) {
+  .project-section {
+    padding: 10px 150px;
+  }
+  .project-section .project-card {
+    width: 300px !important;
+  }
+}
+@media (max-width: 1200px) {
+  .project-section {
+    padding: 10px 60px;
+  }
+}
+@media (max-width: 965px) {
+  .project-section {
+  }
+  .project-list {
+    display: flex;
+    justify-content: center;
+  }
+  .project-section .project-card {
+    /* width: 500px !important; */
+  }
+  .project-card .skill-image {
+    /* height: 300px; */
+  }
+  .project-card .skill-image .skill-img {
+    /* height: 300px; */
+  }
+}
+@media (max-width: 696px) {
+  .project-section {
+    justify-content: center;
+    text-align: center;
+  }
+  .project-section .project-card {
+    width: 800px !important;
+  }
+  .project-section .project-card .skill-image {
+    height: 300px;
+  }
+  .project-section .project-card .skill-image .skill-img {
+    height: 300px;
+  }
+}
+@media (max-width: 542px) {
+  .project-section .project-card {
+    width: 450px !important;
+  }
+  .project-section .project-card .skill-image {
+    height: 200px;
+  }
+  .project-section .project-card .skill-image .skill-img {
+    height: 300px;
+  }
+}
+@media (max-width: 460px) {
+  .project-section .project-card {
+    width: 410px !important;
+  }
+  .project-section .project-card .skill-image {
+    height: 150px;
+  }
+  .project-section .project-card .skill-image .skill-img {
+    height: 250px;
+  }
+  .project-section {
+    padding: 10px 20px;
+  }
+  .project-card .card-text p{
+    text-align-last: center !important;
+  }
+
+}

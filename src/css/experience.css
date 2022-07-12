@@ -1,0 +1,158 @@
+.experience-section {
+  padding: 30px 200px;
+}
+.experience-section .exp-list{
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
+.experience-section h2 {
+  font-family: "Mirza", cursive;
+  font-weight: 600;
+  color: #393d41;
+  font-size: 50px;
+}
+.experience-section .exp-list .team-lottie{
+  display: flex;
+  justify-content: center;
+}
+.experience-section .exp-list .team-lottie{
+  margin-top: 30px;
+  width: 400px;
+}
+.experience-section .exp-cards {
+  font-family: "Roboto", sans-serif;
+  font-family: "Short Stack", cursive;
+  margin-top: 30px;
+  display: grid;
+  font-size: 17px;
+  text-align: justify;
+  grid-template-columns: auto auto;
+}
+.experience-section .exp-cards .color-card .exp-card-title{
+  font-family: "Bree Serif", serif;
+  word-spacing: 1px !important;
+  font-size: 22px;
+}
+.experience-section .exp-cards .color-card .exp-card-text{
+  padding-top: 20px;
+}
+.experience-section .exp-cards .color-card {
+  margin-right: 20px;
+  width: auto !important;
+  height: 400px !important;
+}
+.experience-section .exp-cards .exp-card-header{
+  font-family: "Space Mono", monospace;
+  font-size: 15px;
+  height: 85px !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.experience-section .exp-cards .card-text {
+  padding-left: 20px;
+}
+@media (max-width: 1550px) {
+  .experience-section .team-lottie {
+    margin: auto 0 5%;
+  }
+  .experience-section .exp-list .team-lottie{
+    /* min-height: 258px !important; */
+    /* height: 400px !important; */
+  }
+}
+@media (max-width: 1447px){
+  .experience-section .exp-cards{
+    font-size: 16px;
+  }
+}
+@media (max-width: 1423px){
+  .experience-section .exp-cards{
+    font-size: 14.5px;
+  }
+}
+@media (max-width: 1341px) {
+ 
+    .experience-section .exp-cards{
+      font-size: 18px;
+    }
+  
+  .experience-section {
+    padding: 30px 150px;
+  }
+  .experience-section .team-lottie {
+    margin: 0px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .experience-section .team-lottie img {
+    /* min-width: 283.3px !important; */
+  }
+  .experience-section .exp-cards{
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .experience-section .exp-cards .color-card {
+    width: auto !important;
+    height: auto !important;
+  }
+}
+@media (max-width: 1200px) {
+  .experience-section {
+    padding: 10px 60px;
+  }
+}
+@media (max-width: 1136px) {
+  .experience-section {
+    justify-content: center;
+    grid-template-columns: auto;
+  }
+  .experience-section .exp-list .exp-cards{
+    grid-template-columns: auto auto;
+  }
+  .experience-section .exp-cards {
+    justify-content: space-between;
+  }
+  .experience-section .exp-cards .color-card {
+    margin: 0px;
+    width: auto !important;
+    height: 400px !important;
+  }
+  .experience-section .team-lottie {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+@media (max-width: 955px) {
+  .experience-section .exp-list{
+    grid-template-columns: auto !important;
+  }
+  .experience-section .exp-cards{
+    grid-template-columns: auto auto !important;
+  }
+}
+@media (max-width: 596px) {
+  .experience-section .exp-cards {
+    grid-template-columns: auto !important;
+  }
+  .experience-section .exp-cards .color-card {
+    width: 380 !important;
+    height: auto !important;
+  }
+  .experience-section .team-lottie {
+    width: 100%;
+  }
+  .experience-section .team-lottie{
+    width: 100% !important;
+    height: auto !important;
+  }
+}
+
+@media (max-width: 460px) {
+  .experience-section {
+    padding: 10px 20px;
+  }
+}

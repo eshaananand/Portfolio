@@ -1,0 +1,147 @@
+.about-section {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 30px 200px;
+  /* background-color: rgb(251,249,253);
+  background-color: #fbf9fd; */
+  /* background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+  This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  background-image: url("../assets/background-image/back-trans.png");
+  background-repeat: no-repeat;
+  background-position-x: 600px;
+  background-size: 60%;
+}
+.about-section .image-section {
+  width: 480px !important;
+  height: auto !important;
+  display: flex;
+  justify-content:left;
+}
+.about-section .text-section {
+  padding-top: 40px;
+
+  overflow: visible !important;
+  background-repeat: no-repeat;
+  background-position-x: 100px;
+  /* overflow: visible; */
+}
+.about-section .text-section h2 {
+  padding: 20px 0 20px 0px;
+  font-family: "Space Mono", monospace;
+  font-family: "Mirza", cursive;
+  font-weight: 600;
+  color: #393d41;
+  font-size: 50px;
+}
+.about-section .text-section p {
+  text-align: justify;
+  text-align-last: center;
+  padding: 20px 0 20px 0px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  /* font-family: "Space Mono", monospace; */
+  /* font-family: "Abril Fatface", cursive; */
+  /* font-family: "Acme", sans-serif; */
+  /* font-family: "Amaranth", sans-serif; */
+  /* font-family: "Bree Serif", serif; */
+  /* font-family: "Courgette", cursive; */
+  /* font-family: "Secular One", sans-serif; */
+  /* font-family: "Viga", sans-serif; */
+  /* font-style: italic; */
+  font-family: "Dekko", cursive;
+  font-family: 'Overpass Mono', monospace;
+  font-family: "Ubuntu Mono", monospace;
+  font-family: "Short Stack", cursive;
+}
+.about-section .text-section .chip-class {
+  /* padding-left: 50px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.about-section .chip-card{
+  margin:1px;
+}
+@media (max-width: 1341px) {
+  .about-section {
+    align-items: center;
+    padding: 10px 150px;
+    background-position-x: 50px;
+    background-size: 100%;
+  }
+  .about-section .text-section p,
+  .about-section .text-section h2 {
+    padding: 30px 0 !important;
+  }
+  .about-section .text-section p {
+    font-size: 18px;
+  }
+  .about-section .image-section {
+    order: 2;
+    justify-content:flex-end;
+  }
+  .about-section .image-section img {
+    width: 60%;
+  }
+}
+@media (max-width: 1200px) {
+  .about-section {
+    grid-template-columns: auto;
+  }
+  .about-section .image-section {
+    width: inherit !important;
+    height: 500px !important;
+    justify-content: center;
+  }
+}
+@media (max-width: 965px) {
+  .about-section {
+    padding: 10px 60px;
+  }
+}
+
+@media (max-width: 750px) {
+  .about-section .image-section img {
+    width: 100%;
+  }
+  .about-section {
+    background-position-y: 50px;
+  }
+}
+@media (max-width: 660px) {
+  .about-section {
+    background-position-y: 100px;
+    background-position-x: 10px;
+  }
+  .about-section .text-section h2 {
+    text-align: center;
+  }
+  .about-section .text-section .chip-class {
+    padding: 0;
+    height: 100px;
+  }
+  .about-section .text-section .chip-class Chip {
+    margin: 10px;
+  }
+}
+@media (max-width: 600px) {
+  .about-section {
+    background-position-y: 100px;
+    background-position-x: -200px;
+    background-size: 250%;
+  }
+}
+@media (max-width: 517px) {
+  .about-section .image-section {
+    width: auto !important;
+    height: auto !important;
+  }
+}
+@media (max-width: 460px) {
+  .about-section {
+    padding: 10px 20px;
+  }
+  .about-section .text-section {
+    padding-top: 0px;
+  }
+}

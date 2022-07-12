@@ -1,0 +1,52 @@
+.education-section{
+    padding: 50px 200px;
+    background-color: rgba(130, 162, 238, 0.11);
+background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+.education-section .col-md-12{
+    padding: 0px;
+}
+.education-section h2{
+        font-family: 'Space Mono', monospace;
+        font-family: 'Mirza', cursive;
+          font-weight: 600;
+          color: #393d41;
+          font-size: 50px;
+          margin-bottom: 50px;
+}
+.education-section h1{
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+    font-size: 18px;
+}
+.education-section p{
+    font-family: "Short Stack", cursive;
+}
+.education-section a{
+    word-break: break-all;
+}
+@media (max-width: 1341px) {
+    .education-section{
+        padding: 10px 150px;
+    }
+  }
+@media (max-width: 1200px) {
+    .education-section{
+        padding: 10px 60px;
+
+    }
+  }
+  @media (max-width: 696px) {
+  .MuiPaper-root{
+      width: 230px;
+      
+  }
+}
+@media (max-width: 412px) {
+    .MuiPaper-root{
+        width: 180px;
+        
+    }
+  }
+  

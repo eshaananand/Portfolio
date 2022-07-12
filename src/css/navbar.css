@@ -1,0 +1,98 @@
+.navbar-section{
+    background: rgba(255, 255, 255,1);
+    padding: 0px 200px;
+    justify-content: space-between;
+    font-family: 'Space Mono', monospace;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    
+}
+.brand{
+    font-size: 28px;
+    font-weight: bold;
+}
+.mr-auto{
+    margin-right: 0 !important;
+}
+.navbar-collapse{
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.nav-item{
+    margin: 0px 10px;
+    color: #515558 !important;
+}
+/* //Brand Color Section// */
+.contact-button{
+    margin-bottom: 1.3px;
+}
+.contact-button-new{
+    background-color: rgb(130, 157, 206);
+    border: none;
+}
+
+.green{
+    color: #34a853;
+}
+.blue{
+    color: #4285f4;
+}
+.white{
+    color: white !important;
+}
+
+.scrolled{
+    box-shadow: 0px 0px 5px rgb(110,126,205);
+    background-color: rgb(9,104,158);
+    background-color: rgb(83, 119, 187);
+    transition: ease 1s;
+    font-size:  17px;
+}
+.scrolled-out{
+    transition: ease 0.5s;
+}
+.font-color{
+    color: white !important;
+}
+.basic-navbar-nav{
+    border: none;
+    color: #a1bfd8 !important;
+}
+/* .collapsed i{
+    color: white !important;
+} */
+.toggle-icon{
+    color: #a1bfd8 !important;
+}
+.show{
+    transition: ease 1s;
+}
+@media (max-width: 1461px){
+    .navbar-section{
+        padding: 0px 150px;
+    }
+}
+@media (max-width: 1200px){
+    .navbar-section{
+        padding: 0px 60px;
+    }
+}
+@media (max-width: 1178px) {
+    .navbar-section{
+        padding: 0px 100px;
+    }
+  }
+
+  @media (max-width: 965px) {
+    .navbar-section{
+        padding: 0px 30px;
+    }
+    .navbar-collapse{
+        padding-bottom:20px;
+        text-align: center;
+    }
+    .nav-item{
+        margin : 4.5px 0;
+    }
+  }

@@ -1,0 +1,58 @@
+.contact-section {
+  font-family: "Short Stack", cursive;
+  padding: 30px 200px;
+  display: grid;
+  grid-template-columns: 40% auto;
+}
+.contact-section .lottie {
+  width: 100%;
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+}
+.contact-section .form-section{
+    padding: 5%;
+    border-radius: 15px;
+    background-color: rgba(39, 92, 129, 0.096);
+}
+.contact-section .form-section h2{
+  font-family: 'Mirza', cursive;
+  text-align: center;
+  /* font-weight: 600; */
+  color: #97a0a8;
+  font-size: 45px;
+}
+@media (max-width: 1341px) {
+   .contact-section{
+    padding: 30px 150px;
+   }
+}
+@media (max-width: 1200px) {
+  .contact-section{
+   padding: 30px 60px;
+  }
+}
+@media (max-width: 720px) {
+    .contact-section{
+     grid-template-columns: 100%;
+    }
+ }
+ @media (max-width: 460px) {
+    .contact-section {
+      padding: 10px 20px;
+      justify-content: center;
+
+    }
+    .contact-section .lottie{
+       
+        
+    }
+    .contact-section .mail-send-button{
+      display: flex;
+      justify-content: center;
+  }
+  .contact-section .MuiPaper-root{
+    width: auto !important;
+    margin-bottom: 30px;
+  }
+ }
